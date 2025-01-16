@@ -9,5 +9,20 @@ public class Main {
         // System.out.println(myInt);
         // System.out.println(myDouble);
         // System.out.println(myString);
+
+        int a = 42;
+        double b = 3.14;
+        String s = "Hello, Java!";
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(s);
+
+        //Bài 2.
+        if(a > 10){
+            System.out.println("Greater than 10");
+        }
+        else{
+            System.out.println("Less or equal to 10");
+        }
     }
 }
